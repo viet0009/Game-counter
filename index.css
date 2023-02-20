@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Cursed Timer ULiL';
+  src: url('../CursedTimerUlil-Aznm.ttf');
+}
+
+body {
+    margin: 0;
+    background: #28346C;
+    color:white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#black-board1, #black-board2{   
+    font-family:'Cursed Timer ULiL';
+    font-size: 90px;
+    color:red;
+    border-radius :5px;
+    background: black;
+    width: 140px;
+    height: 85px;
+    max-width: 100%;
+    margin: 2px 40px;  
+}
+
+#button3{
+    color: white;
+    background:#28346C; 
+    width: 35px;
+    height: 35px;
+    margin: 10px 1px;
+    border: solid 1px white;
+    border-radius: 5px;
+    
+}
+
+#new-game{
+    background:red; 
+    border: none;
+}
+
